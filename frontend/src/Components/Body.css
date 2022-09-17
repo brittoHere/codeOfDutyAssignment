@@ -1,0 +1,180 @@
+.banner__content{
+    text-align: center;
+    margin-top: -5%;
+}
+
+.banner__title{
+    font-size: 160px;
+    color:#fff;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.submit__btn{
+    display: inline-block;
+    color:#fff;
+    font-size: 24px;
+    padding: 14px 70px;
+    border:2px solid #fff;
+    background: transparent;
+    border-radius: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.banner__title:hover{
+    -webkit-text-stroke:2px #fff;
+    color:transparent;
+}
+
+.submit__btn:hover{
+    background: #fff;
+    color:#111;
+}
+
+.input__box{
+    position:relative;
+}
+
+.input{
+    /* width:100%; */
+    padding:10px;
+    border:2px solid #fff;
+    background: transparent;
+    border-radius: 5px;
+    outline: none;
+    color:#111;
+    font-weight: 600;
+    font-size: 1em;
+   
+}
+
+.input__error{
+    padding: 10px;
+    border:2px solid red;
+    background: transparent;
+    border-radius: 5px;
+    outline: none;
+    color:#111;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+
+
+.label{
+    position:absolute;
+    left:38%;
+    padding:10px;
+    pointer-events: none;
+    font-size: 1em;
+    color:#111;
+    text-transform: uppercase;
+     transition: 0.5s;
+}
+
+.input:valid ~ span,
+.input:focus ~ span,
+.input__error:valid ~ span,
+.input__error:focus ~ span{
+    color:#111;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65em;
+    padding:0 10px;
+    background: #fff;
+    letter-spacing: 0.2em;
+}
+
+
+@media (max-width:1000px){
+    .label{
+        left:34%;
+    }
+
+    .banner__title{
+        font-size: 120px;
+    }
+
+    .submit__btn{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:991px){
+    .banner__title{
+        font-size: 80px;
+    }
+
+    .submit__btn{
+        font-size: 16px;
+    }
+
+    .label{
+        left:25%;
+    }
+
+}
+
+@media (max-width: 600px){
+    .banner__title{
+        font-size: 65px;
+    }
+}
+
+:root{
+  --primary:#d81e5b;
+  --secondary:#8c38ff;
+  --dark:#131a26;
+  --light:#eee;
+}
+
+.calculator{
+  height: 20rem;
+  width: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-panel .button{
+    color:#111 !important;
+}
+
+button{
+    appearance: none;
+    border:none;
+    outline:none;
+    color:#fff;
+    font-size: 20px;
+    padding:16px;
+    cursor:pointer;
+    transition:0.45s
+}
+
+button:hover{
+    opacity:0.9;
+}
+
+.button__operators{
+    display: flex;
+}
+
+.button__operators button{
+    flex:1 1 0%;
+    background-color: var(--primary);
+    font-weight: 700;
+}
+
+.digits{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.digits button{
+    flex:1 1 3.333%;
+    background-color: var(--dark);
+}
+
+
+
+

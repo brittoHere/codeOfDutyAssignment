@@ -1,0 +1,45 @@
+.list__container{
+    /* width:100%; */
+}
+
+.heading{
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width:500px;
+    min-height: 300px;
+    padding:10px;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+.task__container{
+    margin:10px 0;
+    cursor: pointer;
+}
+
+.line__through{
+    text-decoration: line-through;
+    /* display:none; */
+}
+
+.task{
+    flex-grow: 1;
+    margin-left: 10px;
+    color:#111;
+}
+
+@media (max-width:991px){
+    .container{
+        width:300px;
+    }
+}
