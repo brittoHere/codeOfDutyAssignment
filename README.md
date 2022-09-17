@@ -8,6 +8,6 @@ Images
 
 ![Code Of Duty - Google Chrome 9_17_2022 12_59_51 PM](https://user-images.githubusercontent.com/109431823/190846382-c65bc9d0-dc41-4030-acc2-4ddf582ce0f0.png)
 
-Description
+# Description
 
 This is an assignment product with the combination of todo app and calculator.Click the product link to check out application.
