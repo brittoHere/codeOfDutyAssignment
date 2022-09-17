@@ -1,6 +1,6 @@
 # CodeOfDutyAssignment
 
-https://codtodo.netlify.app/
+https://codtodo.netlify.app
 
 # Images
 
