@@ -1,8 +1,8 @@
-# codeOfDutyAssignment
+# CodeOfDutyAssignment
 
 https://codtodo.netlify.app/
 
-Images
+# Images
 
 ![Code Of Duty - Google Chrome 9_17_2022 12_59_27 PM](https://user-images.githubusercontent.com/109431823/190846361-9750b109-c5cc-467c-90b7-9df07fa566da.png)
 
