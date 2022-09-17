@@ -5,7 +5,7 @@ const cors = require("cors");
 const connection = require("./dbConfig/db");
 const taskRoute = require("./routes/taskRoute");
 const calculateRoute = require("./routes/calculateRoute");
-const port = process.env.PORT;
+const port = process.env.PORT || 8000;
 
 connection();
 
